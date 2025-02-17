@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sahayogi Secondary School</title>
+  <!-- Bootstrap 5 CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body {
+      background-image: url('https://via.placeholder.com/1920x1080.png?text=School+Building+Background'); /* Replace with your school building image */
+      background-size: cover;
+      background-position: center;
+      color: #007BFF; /* Blue text color */
+      font-family: Arial, sans-serif;
+    }
+    .navbar-brand, .nav-link {
+      color: #007BFF !important;
+    }
+    .container {
+      background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+    h1, h2, h3 {
+      color: #007BFF;
+    }
+    .btn-primary {
+      background-color: #007BFF;
+      border-color: #007BFF;
+    }
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Sahayogi Secondary School</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#admission">Admission</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <h1 class="text-center">Welcome to Sahayogi Secondary School</h1>
+    <p class="text-center">Gokarneshwor-4, Kathmandu</p>
+
+    <!-- About Section -->
+    <section id="about">
+      <h2>About Us</h2>
+      <p>Sahayogi Secondary School is a well-established educational institution located in Gokarneshwor-4, Kathmandu. Dedicated to fostering academic excellence and holistic development, the school serves as a nurturing environment for students from diverse backgrounds.</p>
+      <h3>History and Establishment</h3>
+      <p>Sahayogi Secondary School was founded with the vision of offering affordable and accessible education to the local community. Over the years, it has grown from a small establishment to a full-fledged secondary school, gaining recognition for its dedication to academic standards and community involvement.</p>
+      <h3>Academic Programs</h3>
+      <p>The school offers comprehensive educational programs from primary to secondary levels, adhering to the national curriculum of Nepal. At the secondary level, it provides specialized courses in Social Studies and Population Studies, equipping students with critical thinking skills and a deeper understanding of societal issues.</p>
+      <h3>Extracurricular Activities</h3>
+      <p>In addition to academic excellence, Sahayogi Secondary School places significant importance on extracurricular activities. It regularly organizes cultural programs, sports events, and educational workshops to ensure the all-round development of students.</p>
+    </section>
+
+    <!-- Admission Section -->
+    <section id="admission">
+      <h2>Admission Open</h2>
+      <p>Class Nursery to Nine for Academic Year 2082</p>
+      <form>
+        <div class="mb-3">
+          <label for="studentName" class="form-label">Student Name</label>
+          <input type="text" class="form-control" id="studentName" required>
+        </div>
+        <div class="mb-3">
+          <label for="grade" class="form-label">Grade</label>
+          <select class="form-select" id="grade" required>
+            <option value="Nursery">Nursery</option>
+            <option value="1">Grade 1</option>
+            <option value="2">Grade 2</option>
+            <option value="3">Grade 3</option>
+            <option value="4">Grade 4</option>
+            <option value="5">Grade 5</option>
+            <option value="6">Grade 6</option>
+            <option value="7">Grade 7</option>
+            <option value="8">Grade 8</option>
+            <option value="9">Grade 9</option>
+          </select>
+        </div>
+        <div class="mb-3">
+          <label for="parentName" class="form-label">Parent Name</label>
+          <input type="text" class="form-control" id="parentName" required>
+        </div>
+        <div class="mb-3">
+          <label for="phone" class="form-label">Phone Number</label>
+          <input type="tel" class="form-control" id="phone" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+      <h3>For XI Class</h3>
+      <p>Management, Humanities, Education</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p><strong>Principal:</strong> Krishna Prasad Chapagain - 9841472311</p>
+      <p><strong>Accountant:</strong> Ramesh Karki - 9851146543</p>
+      <p><strong>Address:</strong> Gokarneshwor-4, Kathmandu (Opposite of Gokarneshwor Mahadev Temple)</p>
+    </section>
+  </div>
+
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
